@@ -1,0 +1,18 @@
+blueprint
+
+The numeric defaults in rules.md are adapted, in our own words, from:
+
+- pbakaus/impeccable, licensed under Apache-2.0.
+  https://github.com/pbakaus/impeccable
+  Changed: the rules were reworded, reordered and reduced to the numbers; the
+  prose, the procedure and the tooling are not reused.
+
+- nextlevelbuilder/ui-ux-pro-max-skill, licensed under MIT.
+  https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+  Changed: a small number of thresholds were taken and rewritten.
+
+Contrast ratios come from WCAG 2.2 AA. The 44 by 44 point target comes from
+Apple's Human Interface Guidelines. Both are public standards.
+
+gnurio/refactoring-ui-plugin was read and nothing was taken from it: its
+LICENSE reserves all rights, whatever its plugin.json claims.

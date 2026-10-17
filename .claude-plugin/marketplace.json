@@ -1,0 +1,11 @@
+{
+  "name": "blueprint-ui",
+  "owner": { "name": "Dhodraj" },
+  "plugins": [
+    {
+      "name": "inspect",
+      "source": "./plugin",
+      "description": "Says, the first three times a session changes a file that may render a screen, that the rendered image has to be looked at before it is reported on. Carries the inspect skill."
+    }
+  ]
+}

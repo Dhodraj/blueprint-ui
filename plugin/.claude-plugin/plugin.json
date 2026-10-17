@@ -1,0 +1,19 @@
+{
+  "name": "inspect",
+  "version": "1.0.0",
+  "description": "Says, the first three times a session changes a file that may render a screen, that the rendered image has to be looked at before the screen is reported on. Carries the inspect skill with the render commands and the checklist.",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/inspect-nudge.sh\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

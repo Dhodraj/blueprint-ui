@@ -1,0 +1,303 @@
+{
+  "version": 1,
+  "updated": "2026-10-17",
+  "components": [
+    {
+      "id": "shadcn",
+      "url": "https://ui.shadcn.com",
+      "for": [
+        "primitives",
+        "dashboard",
+        "sidebar",
+        "login",
+        "table",
+        "form"
+      ],
+      "stack": "react+tailwind+shadcn",
+      "licence": "MIT",
+      "install": "pnpm dlx shadcn@latest add dashboard-01"
+    },
+    {
+      "id": "reui",
+      "url": "https://reui.io",
+      "for": [
+        "data-grid",
+        "dense-table",
+        "virtualised",
+        "bulk-actions"
+      ],
+      "stack": "react+tailwind+shadcn",
+      "licence": "MIT",
+      "install": "pnpm dlx shadcn@latest add @reui/<component>"
+    },
+    {
+      "id": "kibo-ui",
+      "url": "https://kibo-ui.com",
+      "for": [
+        "table",
+        "kanban",
+        "gantt",
+        "calendar"
+      ],
+      "stack": "react+tailwind+shadcn",
+      "licence": "MIT",
+      "install": "pnpm dlx kibo-ui add <component>"
+    },
+    {
+      "id": "reactflow-ui",
+      "url": "https://ui.reactflow.dev",
+      "for": [
+        "graph",
+        "dependency-graph",
+        "schema-node"
+      ],
+      "stack": "react+reactflow",
+      "licence": "xyflow is MIT; the component page states none",
+      "install": "copy from the page"
+    },
+    {
+      "id": "tremor",
+      "url": "https://tremor.so",
+      "for": [
+        "charts",
+        "kpi",
+        "spark-chart",
+        "filters"
+      ],
+      "stack": "react+tailwind",
+      "licence": "Apache-2.0",
+      "install": "no CLI; Tremor Raw needs Tailwind 4",
+      "note": "some blocks are paid"
+    },
+    {
+      "id": "hyperui",
+      "url": "https://hyperui.dev",
+      "for": [
+        "primitives",
+        "marketing"
+      ],
+      "stack": "html+tailwind",
+      "licence": "MIT",
+      "install": "copy from the page"
+    },
+    {
+      "id": "magicui",
+      "url": "https://magicui.design",
+      "for": [
+        "animation",
+        "marketing"
+      ],
+      "stack": "react+tailwind+motion",
+      "licence": "MIT",
+      "install": "pnpm dlx shadcn@latest add @magicui/<component>"
+    },
+    {
+      "id": "reactbits",
+      "url": "https://reactbits.dev",
+      "for": [
+        "animation",
+        "backgrounds"
+      ],
+      "stack": "react+tailwind",
+      "licence": "MIT with Commons Clause",
+      "install": "pnpm dlx shadcn@latest add @react-bits/<component>",
+      "note": "check the Commons Clause before client work"
+    },
+    {
+      "id": "uiarc",
+      "url": "https://uiarc.dev",
+      "for": [
+        "animation",
+        "blocks"
+      ],
+      "stack": "react+tailwind+shadcn",
+      "licence": "MIT free tier",
+      "install": "pnpm dlx shadcn@latest add <component>",
+      "note": "most complete blocks need Pro at $199"
+    },
+    {
+      "id": "21st",
+      "url": "https://21st.dev",
+      "for": [
+        "marketing",
+        "blocks",
+        "themes"
+      ],
+      "stack": "react+tailwind+shadcn",
+      "licence": "not stated per component",
+      "install": "pnpm dlx @21st-dev/cli@latest init",
+      "note": "free tier is two copies a day"
+    },
+    {
+      "id": "aceternity",
+      "url": "https://ui.aceternity.com",
+      "for": [
+        "animation",
+        "marketing"
+      ],
+      "stack": "react+tailwind+motion",
+      "licence": "not found",
+      "install": "shadcn CLI",
+      "note": "blocks and templates need the paid pass"
+    }
+  ],
+  "screens": [
+    {
+      "id": "shadcn-blocks",
+      "url": "https://ui.shadcn.com/blocks",
+      "for": [
+        "dashboard",
+        "sidebar",
+        "login"
+      ],
+      "stack": "react+tailwind+shadcn",
+      "licence": "MIT"
+    },
+    {
+      "id": "tablecn",
+      "url": "https://github.com/sadmann7/tablecn",
+      "for": [
+        "server-side-table",
+        "bulk-actions",
+        "filters"
+      ],
+      "stack": "next+tanstack-table",
+      "licence": "MIT"
+    },
+    {
+      "id": "shadcn-admin",
+      "url": "https://github.com/satnaing/shadcn-admin",
+      "for": [
+        "admin-shell",
+        "routing",
+        "theming"
+      ],
+      "stack": "vite+react+shadcn",
+      "licence": "MIT"
+    }
+  ],
+  "rejected": [
+    {
+      "url": "https://coss.com/ui",
+      "reason": "repo is AGPL-3.0 and the UI package states no licence"
+    },
+    {
+      "url": "https://park-ui.com",
+      "reason": "Ark UI and Panda CSS, not Tailwind or shadcn"
+    },
+    {
+      "url": "https://saas-ui.dev",
+      "reason": "Chakra, not Tailwind or shadcn"
+    },
+    {
+      "url": "https://tailwindcss.com/plus",
+      "reason": "login and payment required"
+    },
+    {
+      "url": "https://mobbin.com",
+      "reason": "account required; API and MCP are paid"
+    },
+    {
+      "url": "https://rareui.com",
+      "reason": "did not load, HTTP 429 on 2026-10-17"
+    },
+    {
+      "url": "https://atlassian.design",
+      "reason": "licence limits use to Atlassian add-ons and forbids derivatives"
+    },
+    {
+      "url": "https://pageflows.com",
+      "reason": "paid, $99 a year, account required"
+    },
+    {
+      "url": "https://saasinterface.com",
+      "reason": "paid, account required"
+    },
+    {
+      "url": "https://www.lightningdesignsystem.com",
+      "reason": "repo licence flagged NOASSERTION, terms not confirmed"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "carbon-data-table",
+      "url": "https://carbondesignsystem.com/components/data-table/usage/",
+      "for": [
+        "table",
+        "bulk-actions",
+        "selection",
+        "pagination",
+        "skeleton"
+      ],
+      "stack": "any",
+      "licence": "code Apache-2.0; content licence not checked",
+      "note": "read as reference, do not copy assets"
+    },
+    {
+      "id": "carbon-status",
+      "url": "https://carbondesignsystem.com/patterns/status-indicator-pattern/",
+      "for": [
+        "status",
+        "run-state"
+      ],
+      "stack": "any",
+      "licence": "code Apache-2.0; content licence not checked"
+    },
+    {
+      "id": "carbon-empty-states",
+      "url": "https://carbondesignsystem.com/patterns/empty-states-pattern/",
+      "for": [
+        "empty-state"
+      ],
+      "stack": "any",
+      "licence": "code Apache-2.0; content licence not checked"
+    },
+    {
+      "id": "primer-data-table",
+      "url": "https://primer.style/product/components/data-table/",
+      "for": [
+        "table",
+        "loading",
+        "skeleton",
+        "pagination",
+        "selection"
+      ],
+      "stack": "any",
+      "licence": "code MIT; docs licence not checked"
+    },
+    {
+      "id": "primer-ui-patterns",
+      "url": "https://primer.style/product/ui-patterns/",
+      "for": [
+        "loading",
+        "progressive-disclosure"
+      ],
+      "stack": "any",
+      "licence": "code MIT; docs licence not checked"
+    },
+    {
+      "id": "pencilandpaper-tables",
+      "url": "https://pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables",
+      "for": [
+        "table",
+        "enterprise",
+        "density"
+      ],
+      "stack": "any",
+      "licence": "free to read, not to copy",
+      "note": "same site covers filtering, empty states, error feedback and system status"
+    },
+    {
+      "id": "ui-patterns",
+      "url": "https://ui-patterns.com",
+      "for": [
+        "patterns",
+        "forms",
+        "errors"
+      ],
+      "stack": "any",
+      "licence": "free library; card decks are paid",
+      "note": "generic app patterns, nothing on tables or status"
+    }
+  ]
+}
