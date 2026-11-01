@@ -1,5 +1,12 @@
 # blueprint-ui
 
+> **Superseded by [ui-skills](https://github.com/Dhodraj/ui-skills).**
+> Its `ui-design` and `ui-review` carry this repository's numbers, its
+> dense-screen rules and `inspect`'s seven checks, and add a `DESIGN.md`
+> design system, component search across 508 registries, and a Storybook
+> path. This repository still works and is left here for anyone using it.
+
+
 Two skills for Claude Code, one each side of building a screen.
 
 `blueprint` plans it. The job the screen serves, references, then a written
